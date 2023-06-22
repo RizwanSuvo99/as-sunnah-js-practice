@@ -72,3 +72,12 @@ input[type="button"]:hover {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
+
+@media screen and (max-width: 1300px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  section{
+    margin:2rem;
+  }
+}
